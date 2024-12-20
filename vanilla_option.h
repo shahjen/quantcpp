@@ -26,4 +26,5 @@ class VanillaOption
         double get_sigma() const;
         double calc_call_price() const;
         double calc_put_price() const;
+        double N(const double& x)const;
 };
